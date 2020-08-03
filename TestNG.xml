@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="BankingGuru">
+
+	<listeners>
+		<listener class-name="com.bankingGuru.utilities.Reporting"/>
+		
+	</listeners>
+
+	<test name="BankingApp Test">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<!--  <class name="com.bankingGuru.testCases.ATC_LoginTest_001" /> --> 
+			<!-- <class name="com.bankingGuru.testCases.ATC_LoginDDT_002" />--> 
+			 <class name="com.bankingGuru.testCases.ATC_newCostumerTest_003" />
+			 
+		</classes>
+
+	</test>
+
+</suite>
